@@ -1,6 +1,8 @@
 # binaries
 > Store built configuration for CI testing
 
-Each `.tar` file is stored by Emacs version no. We attempted to use filename
-`{{ matrix.os }}.{{ matrix.emacs-version }}.tar`; but it increases our
-LFS storage
+The `main.tar` is bundled confiugration file from [jcs-emacs]().
+
+We attempted to use filename `{{ matrix.os }}.{{ matrix.emacs-version }}.tar`;
+but it will instantly kills our 1G of LFS quota. Hence we have only one built
+file from each platforms and Emacs versions.
