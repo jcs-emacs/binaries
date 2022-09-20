@@ -13,5 +13,3 @@ Before we explode our large file storge (LFS), our strategy here is to revert
 anything to our very first main `.tar` file's commit using the
 `git reset --hard <commit_id>` command. Then we force push `git push --force`
 our tar file to this repository, in order to make our LFS' disk space **low**.
-
-Commit SHA: `44fda99962962441f6462d985c398f666d4b8096`
