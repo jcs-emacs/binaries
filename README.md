@@ -14,4 +14,4 @@ anything to our very first main `.tar` file's commit using the
 `git reset --hard <commit_id>` command. Then we force push `git push --force`
 our tar file to this repository, in order to make our LFS' disk space **low**.
 
-Commit SHA: `c128b3c19c16c3f95d126359546e0bca32274eb9`
+Commit SHA: `44fda99962962441f6462d985c398f666d4b8096`
