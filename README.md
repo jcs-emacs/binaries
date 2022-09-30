@@ -1,5 +1,8 @@
-<img align="right" src="https://raw.githubusercontent.com/jcs-emacs/jcs-elpa/master/docs/etc/sink_black.png#gh-light-mode-only" width="25%"/>
-<img align="right" src="https://raw.githubusercontent.com/jcs-emacs/jcs-elpa/master/docs/etc/sink_white.png#gh-dark-mode-only" width="25%"/>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./docs/etc/logo/light/sink.png">
+  <source media="(prefers-color-scheme: dark)" srcset="./docs/etc/logo/dark/sink.png">
+  <img align="right" width="25%" src="">
+</picture>
 
 # binaries
 > Store built configuration for CI testing
