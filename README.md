@@ -21,3 +21,20 @@ Before we explode our large file storge (LFS), our strategy here is to revert
 anything to our very first main `.tar` file's commit using the
 `git reset --hard <commit_id>` command. Then we force push `git push --force`
 our tar file to this repository, in order to make our LFS' disk space **low**.
+
+## ⚜️ License
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+See [`LICENSE`](./LICENSE) for details.
